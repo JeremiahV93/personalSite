@@ -1,2 +1,28 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import './javascripts/components/projects/projects.scss';
+
+body {
+  background-color: dodgerblue;
+  
+}
+.aboutMe {
+  margin: 1em 1em;
+  ;
+}
+.content {
+  display: flex;
+  align-content: center;
+}
+
+.card {
+  width:  75% !important;
+  margin: 1em 1em !important;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
