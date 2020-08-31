@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: 'Nutshell Reindeer: Jurrasic World ',
-    screenshot: '',
+    screenshot: '../../../db/assests/nutshell-reindeer.jpg',
     description: `This was the follow up to Nutshell Moose, this was originally a single page app that was created by another group of student in our class. 
     They got our project and we got their's and had a new list of requirements to hit MVP. This was a huge undertaking as it was the first time we were not only exposed to another group
      of developer's code, but also expected to work with it. Our first challenge was to understand the structure and method of the first team's development strategies.
@@ -22,6 +22,17 @@ const projects = [
     available: true,
     url: 'https://nutshell-riendeer.web.app/',
     githubUrl: 'https://github.com/JeremiahV93/nutshell-reindeer',
+  },
+  {
+    title: 'Sports Roster',
+    screenshot: '',
+    description: `This is my first React project that utilizes class components with the React framework. I am still utilizing Firebase for my API and have full CRUD.
+     I created varying data objects (pitchers, and fielders) that required some tooling for both displaying the players and any added player or updating those 
+      players as well. This website I also took the challenge to use SCSS to create the player cards to look like traditonal Baseball cards, with flipping cards for
+      the player stats.`,
+    available: true,
+    url: 'https://jv-sports-roster.web.app/',
+    githubUrl: 'https://github.com/JeremiahV93/sports-roster',
   },
 ];
 
