@@ -1,12 +1,6 @@
 import projectData from '../../helpers/data/projectData';
 import utils from '../../helpers/utils';
 import './projects.scss';
-// const projectCards = (project) => {
-//   const domString = `
-//     print each project cards. etc ${project.name}
-//   `;
-//   return domString;
-// };
 
 const printProjects = () => {
   let domString = '<div>';
