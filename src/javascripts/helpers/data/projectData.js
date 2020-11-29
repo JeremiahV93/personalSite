@@ -34,6 +34,18 @@ const projects = [
     url: 'https://jv-sports-roster.web.app/',
     githubUrl: 'https://github.com/JeremiahV93/sports-roster',
   },
+  {
+    title: 'Ball Game',
+    screenshot: 'https://i.imgur.com/cBb8gMv.jpeg',
+    description: `A single page web app built in React to help users plan and manage attending baseball games.
+     Users were able to add upcoming baseball games tracking vital information for the event. 
+     For past games, the functionality transitioned to that of a journal allowing for users to document the game for personal reflection in the future.
+     Firebase was used to maintain the data collections and for CRUD capabilities.
+    `,
+    available: true,
+    url: 'https://jv-ballgame.web.app/landingPage',
+    githubUrl: 'https://github.com/JeremiahV93/ballgame',
+  },
 ];
 
 const getProjectData = () => projects;
