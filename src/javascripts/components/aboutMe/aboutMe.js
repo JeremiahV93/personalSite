@@ -8,8 +8,8 @@ const aboutMe = () => {
       which led me to joining Nashville Software School as the Student Services Admin. Being around developers got me wondering and I took some basic Javascript Courses
       and was instandly sold. I wanted, no needed, to learn more and finally signed up for their Full-stack Web Development Bootcamp. It has been a perfect blend of my passion for creativity, 
       adn funneling that passion and drive into productive problem solving. My personal hoobies reflect this, with a high drive to succeed and learn new things. </p>
-    <h2> Tech: </h2>
-    <p> git hub, js, css, html, scss, jquery, boostrap, react</p>
+    <h1> Proficient in: </h1>
+    <p> Git, JavaScript, React, Python</p>
   </div>
   `;
   utils.printToDom('#content', domString);

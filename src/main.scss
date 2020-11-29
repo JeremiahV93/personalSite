@@ -1,6 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import './javascripts/components/projects/projects.scss';
+@import './javascripts//components//aboutMe/aboutMe.scss';
 
 body {
   background-color: dodgerblue;
@@ -17,7 +18,7 @@ body {
 
 .card {
   width:  75% !important;
-  margin: 1em 1em !important;
+  margin: 4em 1em !important;
 }
 
 .footer {
